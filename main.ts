@@ -19,7 +19,7 @@ input.onButtonPressed(Button.A, function () {
         let steps = 0
         while (steps < 4) {
             sprite.move(1)
-            basic.pause(200)
+            basic.pause(500)
             steps += 1
         }
         sprite.turn(Direction.Right, 90)
