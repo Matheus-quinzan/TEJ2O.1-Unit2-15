@@ -27,4 +27,3 @@ input.onButtonPressed(Button.A, function () {
     }
     sprite.delete()
 })
-basic.showIcon(IconNames.Duck)
